@@ -103,7 +103,7 @@ Creemos que así resolvemos su problema de no tener claridad en la trama por la 
 #### Historia de usuario
 La historia de usuario que nos propusimos tener al final del sprint 1:
 
-    Que el usuario vea desplegada la data (los personajes de la serie) en forma de tarjetas, que pueda filtrarla basados en una condición (género del personaje) y que se le muestre la información del personaje que seleccione, utilizando un prototipo de alta fidelidad.
+*Que el usuario vea desplegada la data (los personajes de la serie) en forma de tarjetas, que pueda filtrarla basados en una condición (género del personaje) y que se le muestre la información del personaje que seleccione, utilizando un prototipo de alta fidelidad.*
 
 ## Checklist
 - [ ] Usa VanillaJS.
@@ -129,5 +129,6 @@ La historia de usuario que nos propusimos tener al final del sprint 1:
 
 ## Autoras
 [Viviana Berrón](https://github.com/vivianaberron)
+
 [Isis Lázaro](https://github.com/isisLazaro)
 
