@@ -79,7 +79,18 @@ Datos comportamiento digital:
 El internet es el corazón de su trabajo, pues lo considera una herramienta esencial sin la cual no podría completarlo. Así mismo, suele pasar varias horas en internet en sus ratos libres, en redes sociales y en youtube. También suele utilizar internet para ver series.
 
 ### Ideación y prototipado
-Prototipo de baja fidelidad
+#### Propuestas para resolver los problemas del usuario y mejorar su experiencia
+- Mostrar los personajes y dar opciones para filtrar en torno a sus características. 
+- Utilizar colores relacionados a Rick & Morty. 
+- Tener consistencia con los elementos gráficos 
+- Utilizar páginas de carga.
+- Evitar falsos afforandances. 
+- Tener un diálogo constante con el usuario y que éste sea corto y efectivo, además de hablar en el lenguaje del fandom.
+- Mostrar el flujo de búsqueda. 
+- Recordar qué parámetros fueron utilizados para filtrar la información. 
+- Proporcionar documentación mediante una página de ayuda.
+
+#### Prototipo de baja fidelidad
 
 <img src = "images/prototipoLFv0.jpg" width = 500>
 
