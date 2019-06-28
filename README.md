@@ -63,7 +63,9 @@ Datos más relevantes que quieren ver en la interfaz
 Su búsqueda más frecuente son los personajes, por tanto, la información giraría en torno a ellos.
 
 #### USER-PERSONA
-Historia de usuario: Como viewer de Rick & Morty, quiero tener claras las características de los personajes y su relación con la trama. Necesito que la información esté organizada debidamente para saber en qué temporada y en qué capítulo aparece cada personaje, pues existen muchos giros en el guión que pueden restar claridad sobre el origen de cada uno. 
+Historia de usuario: 
+
+Como viewer de Rick & Morty, quiero tener claras las características de los personajes y su relación con la trama. Necesito que la información esté organizada debidamente para saber en qué temporada y en qué capítulo aparece cada personaje, pues existen muchos giros en el guión que pueden restar claridad sobre el origen de cada uno. 
 
 Datos personales:
 
@@ -93,6 +95,12 @@ El internet es el corazón de su trabajo, pues lo considera una herramienta esen
 #### Prototipo de baja fidelidad
 
 <img src = "images/prototipoLFv0.jpg" width = 500>
+
+#### Prototipo de alta fidelidad
+
+<img src = "images/prototipoHFv0_1.jpg" width = 500>
+
+[Data Lovers](https://www.figma.com/file/bXabCOU21tjPp1mkJ4OUxNUW/Data-lovers?node-id=0%3A1)
 
 ## Checklist
 - [ ] Usa VanillaJS.
