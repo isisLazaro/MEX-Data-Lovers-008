@@ -62,7 +62,7 @@ Datos más relevantes que quieren ver en la interfaz
 
 Su búsqueda más frecuente son los personajes, por tanto, la información giraría en torno a ellos.
 
-#### USER-PERSONA
+#### User-persona
 - Historia de usuario: 
     Como viewer de Rick & Morty, quiero tener claras las características de los personajes y su relación con la trama. Necesito que la información esté organizada debidamente para saber en qué temporada y en qué capítulo aparece cada personaje, pues existen muchos giros en el guión que pueden restar claridad sobre el origen de cada uno. 
 
@@ -71,7 +71,7 @@ Su búsqueda más frecuente son los personajes, por tanto, la información girar
     Aunque se siente cómodo con su situación laboral, constantemente reflexiona sobre sus metas y sus aspiraciones, pues no le gusta sentirse atrapado. 
 
 - Datos de su desarrollo profesional: 
-    Es profesionista
+    Es profesionista.
 
 - Datos comportamiento digital: 
     El internet es el corazón de su trabajo, pues lo considera una herramienta esencial sin la cual no podría completarlo. Así mismo, suele pasar varias horas en internet en sus ratos libres, en redes sociales y en youtube. También suele utilizar internet para ver series.
@@ -101,8 +101,9 @@ Creemos que así resolvemos su problema de no tener claridad en la trama por la 
 <img src = "images/prototipoHFv0_1.jpg" width = 500>
 
 #### Historia de usuario
-La historia de usuario que nos propusimos tener al final del sprint 1 es:
-    Que el usuario vea desplegada la data (los personajes de la serie) en forma de tarjetas, que pueda filtrarla basados en una condición (género del personaje) y que se le muestre la infomación del un personaje en particular, utilizando un prototipo de alta fidelidad.
+La historia de usuario que nos propusimos tener al final del sprint 1:
+
+    Que el usuario vea desplegada la data (los personajes de la serie) en forma de tarjetas, que pueda filtrarla basados en una condición (género del personaje) y que se le muestre la información del personaje que seleccione, utilizando un prototipo de alta fidelidad.
 
 ## Checklist
 - [ ] Usa VanillaJS.
@@ -125,3 +126,8 @@ La historia de usuario que nos propusimos tener al final del sprint 1 es:
 
 ## README original
 [README original](READMEoriginal.md)
+
+## Autoras
+[Viviana Berrón](https://github.com/vivianaberron)
+[Isis Lázaro](https://github.com/isisLazaro)
+
