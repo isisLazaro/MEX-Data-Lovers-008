@@ -40,12 +40,24 @@ Se realizó el siguiente [cuestionario](https://forms.gle/NQMbQqdUc5wMXoweA), co
 
 Datos más relevantes
 - La media de la edad de nuestros heavy users es entre 25 y 34 años. 
+    <img src = "images/encuestaEdad.png" width = 500>
+
+    <img src = "images/encuestaGenero.png" width = 500>
 - La mayoría ha visto todas las temporadas y ha visto los capítulos por lo menos dos veces. 
+    <img src = "images/encuestaFrecuencia.png" width = 500>
 - En general, no hay nada de la serie que los confunda, aunque sí suelen buscar información en fan pages y wikias. 
+    <img src = "images/encuestaConfundir.png" width = 500>
+
+    <img src = "images/encuestaBusquedaInfo.png" width = 500>
 - Consideran que la información es fácil de encontrar en los sitios donde buscan cosas relacionadas a Rick & Morty. 
-- Todos consideran que la información que encuentran es útil. 
+    <img src = "images/encuestaFacilidad.png" width = 500>
+- La mayoría considera que la información que encuentran es útil. 
+    <img src = "images/encuestaUtilidad.png" width = 500>
 - Sin embargo, una de las motivaciones de búsqueda es tener más claridad sobre la trama y los personajes. 
+    <img src = "images/encuestaPorque.png" width = 500>
 - En general, su búsqueda más frecuente son los personajes de Rick & Morty. 
+    <img src = "images/encuestaCriterios.png" width = 500>
+    
 
 ### Síntesis y definición
 De los datos que obtuvimos y analizamos en la fase de investigación, y que nos van a ayudar a desarrollar nuestra aplicación son:
