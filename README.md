@@ -8,7 +8,7 @@ De acuerdo a nuestra búsqueda en la web, la combinación de nihilismo alcohóli
 
 En los últimos años los fans de la serie, hombres en su mayoría, han sido relacionados con comportamientos misóginos, violentos y con sentimientos de superioridad intelectual, derivado de la idea de quien debería ver una serie de ciencia ficción con lenguaje vulgar y violencia. A pesar de esto, de acuerdo con HULU, la fase de fans podría estar integrada por el 40 % de mujeres.
 
-Referencias:
+<ins>Referencias:</ins>
 
 [Rick and Morty](https://en.wikipedia.org/wiki/Rick_and_Morty)
 
@@ -83,5 +83,24 @@ Prototipo de baja fidelidad
 
 <img src = "images/prototipoLFv0.jpg" width = 500>
 
+## Checklist
+- [ ] Usa VanillaJS.
+- [ ] No hace uso de `this`.
+- [ ] Pasa linter (`npm pretest`)
+- [ ] Pasa tests (`npm test`)
+- [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+      lines y branches.
+- [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
+- [ ] Incluye historias de usuario en `README.md`.
+- [x] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+      `README.md`.
+- [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+      en `README.md`.
+- [ ] Incluye el listado de problemas que detectaste a través de tests de
+      usabilidad en el `README.md`.
+- [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
+- [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
+- [ ] UI: Permite filtrar data en base a una condición.
 
+## README original
 [README original](READMEoriginal.md)
