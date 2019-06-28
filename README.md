@@ -117,10 +117,15 @@ La historia de usuario que nos propusimos tener al final del sprint 1:
 
 *Que el usuario vea desplegada la data (los personajes de la serie) en forma de tarjetas, que pueda filtrarla basados en una condición (género del personaje) y que se le muestre la información del personaje que seleccione, utilizando un prototipo de alta fidelidad.*
 
+## Tests
+Una vez que realizamos los forks correspondientes, se instalaron las dependencias del proyecto y se ejecutaron las pruebas unitarias (unit tests)
+
+<img src = "images/test1.JPG" width = 500>
+
 ## Checklist
 - [ ] Usa VanillaJS.
 - [ ] No hace uso de `this`.
-- [ ] Pasa linter (`npm pretest`)
+- [x] Pasa linter (`npm pretest`)
 - [ ] Pasa tests (`npm test`)
 - [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
       lines y branches.
