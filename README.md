@@ -63,22 +63,22 @@ Datos más relevantes que quieren ver en la interfaz
 Su búsqueda más frecuente son los personajes, por tanto, la información giraría en torno a ellos.
 
 #### USER-PERSONA
-Historia de usuario: 
+- Historia de usuario: 
+    Como viewer de Rick & Morty, quiero tener claras las características de los personajes y su relación con la trama. Necesito que la información esté organizada debidamente para saber en qué temporada y en qué capítulo aparece cada personaje, pues existen muchos giros en el guión que pueden restar claridad sobre el origen de cada uno. 
 
-Como viewer de Rick & Morty, quiero tener claras las características de los personajes y su relación con la trama. Necesito que la información esté organizada debidamente para saber en qué temporada y en qué capítulo aparece cada personaje, pues existen muchos giros en el guión que pueden restar claridad sobre el origen de cada uno. 
+- Datos personales:
+    Alejandro tiene 25 años, es profesionista y trabaja todo el día. Está soltero.
+    Aunque se siente cómodo con su situación laboral, constantemente reflexiona sobre sus metas y sus aspiraciones, pues no le gusta sentirse atrapado. 
 
-Datos personales:
+- Datos de su desarrollo profesional: 
+    Es profesionista
 
-Alejandro tiene 25 años, es profesionista y trabaja todo el día. Está soltero.
-Aunque se siente cómodo con su situación laboral, constantemente reflexiona sobre sus metas y sus aspiraciones, pues no le gusta sentirse atrapado. 
+- Datos comportamiento digital: 
+    El internet es el corazón de su trabajo, pues lo considera una herramienta esencial sin la cual no podría completarlo. Así mismo, suele pasar varias horas en internet en sus ratos libres, en redes sociales y en youtube. También suele utilizar internet para ver series.
 
-Datos de su desarrollo profesional: 
-
-Es profesionista
-
-Datos comportamiento digital: 
-
-El internet es el corazón de su trabajo, pues lo considera una herramienta esencial sin la cual no podría completarlo. Así mismo, suele pasar varias horas en internet en sus ratos libres, en redes sociales y en youtube. También suele utilizar internet para ver series.
+#### <ins>**DEFINICIÓN DEL PRODUCTO**</ins>
+Nuestra aplicación va a estar dirigida a los fans de Rick & Morty, que tienen un amplio conocimiento de la serie, pero que buscan información en la web sobre los personajes de la serie. La aplicación proporcionará está información directamente y le ayudará a acotarla mediante el uso de filtros.
+Creemos que así resolvemos su problema de no tener claridad en la trama por la cantidad de personajes que aparecen.
 
 ### Ideación y prototipado
 #### Propuestas para resolver los problemas del usuario y mejorar su experiencia
@@ -100,7 +100,9 @@ El internet es el corazón de su trabajo, pues lo considera una herramienta esen
 
 <img src = "images/prototipoHFv0_1.jpg" width = 500>
 
-[Data Lovers](https://www.figma.com/file/bXabCOU21tjPp1mkJ4OUxNUW/Data-lovers?node-id=0%3A1)
+#### Historia de usuario
+La historia de usuario que nos propusimos tener al final del sprint 1 es:
+    Que el usuario vea desplegada la data (los personajes de la serie) en forma de tarjetas, que pueda filtrarla basados en una condición (género del personaje) y que se le muestre la infomación del un personaje en particular, utilizando un prototipo de alta fidelidad.
 
 ## Checklist
 - [ ] Usa VanillaJS.
@@ -109,11 +111,11 @@ El internet es el corazón de su trabajo, pues lo considera una herramienta esen
 - [ ] Pasa tests (`npm test`)
 - [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
       lines y branches.
-- [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-- [ ] Incluye historias de usuario en `README.md`.
+- [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
+- [x] Incluye historias de usuario en `README.md`.
 - [x] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
       `README.md`.
-- [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+- [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
       en `README.md`.
 - [ ] Incluye el listado de problemas que detectaste a través de tests de
       usabilidad en el `README.md`.
