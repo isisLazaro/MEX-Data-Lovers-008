@@ -1,0 +1,252 @@
+ * {
+	font-family: 'Saira', sans-serif;
+ }
+ body {
+	margin: 0; padding: 0;
+ }
+ #background {
+   background-image: url(img/stars1.svg);
+   background-repeat: repeat;
+   background-size: cover;
+    background-attachment: scroll;
+   background-position: relative;
+}
+ #main-header {
+	background: #26456C;
+	margin-top: 100%;
+	color: #FEFDFD; 
+	height: 95px;
+	margin-top: 0px;
+}	
+
+#main-header a {
+    color: #FEFDFD;
+}
+
+#season1 {
+	display: flexbox;
+	box-align: start;
+	margin-top: 0.10%;
+	margin-left: 20px;
+	background-color: #3D7680;
+	border-color:  #3D7680;
+	text-align: center;
+	height: 60%;
+    width: 17%;
+    font-size: 25px;
+}
+
+#season1 a{ 
+	text-decoration: none;
+}
+
+#advanced-search {
+	position: absolute;
+	margin-top: 0.10%;
+	margin-left: 15px;
+	background-color: #D99977;
+	border-color:  #D99977;
+	text-decoration: none;
+	height: 40px;
+	width: 12%;
+	font-size: 15px;
+
+
+}
+
+#main-content {
+	background: #C7F7FF;
+	width: 97%;
+	height: 35%;
+	max-width: 900px;
+	margin: 20px auto;
+}				
+#main-footer {
+	background: #88BA75;
+	color: #000000;
+	text-align: center;
+	height: 40px;
+	padding: 20px;
+	margin-top: 40px;
+	font-size: 35px;
+}
+	#main-footer a {
+		color: #000000;
+		align-items: right;
+}
+#main-footer p {
+	margin-left: 10px;
+}
+#footer-text {
+	font-size: 50%;
+}
+
+nav {
+	margin-right: 5%;
+	float: right;
+	font-size: 30px;
+	text-align: left;
+	
+}
+
+
+/* menu */
+
+#menu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+	background-color:#F1ED6E;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+	display:block;
+	color:#000000;
+	text-decoration:none;
+	font-weight:400;
+	font-size:15px;
+	padding:10px;
+	font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+	background: #A4DF68;
+   }
+
+   /* menu desplegable */
+
+#menu ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#eee;
+	padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+	float:none;
+	width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+	line-height:120%;
+	padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+	display:block;
+   }
+
+   #background-seasons {
+	background-image: url(img/season-rick.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	 background-attachment: scroll;
+	background-position: absolute;
+ }
+
+#home-header {
+	background: #B6FF4A;
+	margin-top: 100%;
+	color: #3D7680; 
+	height: 95px;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 40px;
+}	
+
+#season1-button {
+	display: block;
+	margin-right:50%;
+	margin-left:38%;
+	margin-top: 15px;
+	border-radius: 5px;
+	background-color: #F1ED6E;
+	border-color: #F1ED6E;
+	height: 60px;
+	width: 200px;
+	font-size: 100%;
+}
+
+#season1-button a {
+text-decoration: none;
+color: 	#000000;
+}
+
+#season2-button {
+	display: block;
+	margin-right:50%;
+	margin-left:35%;
+	margin-top: 15px;
+	border-radius: 5px;
+	background-color: #A4DF68;
+	border-color: #A4DF68;
+	height: 60px;
+	width: 250px;
+	font-size: 100%;
+}
+#season2-button a {
+	text-decoration: none;
+	color: 	#000000;
+}
+
+#season3-button {
+	display: block;
+	margin-right:50%;
+	margin-left:33%;
+	margin-top: 15px;
+	border-radius: 5px;
+	background-color: #ADD7EC;
+	border-color: #ADD7EC;
+	height: 60px;
+	width: 300px;
+	font-size: 100%;
+}
+#season3-button a {
+	text-decoration: none;
+	color: 	#000000;
+}
+
+#main-content2 {
+	background: #FFFBFB;
+	width: 97%;
+	height: 35%;
+	max-width: 900px;
+	margin: 20px auto;
+	opacity: 0.9;
+}	
+
+#background2 {
+	background-color: red;
+ }
+
+ #background3 {
+	 background-color: greenyellow;
+ }
