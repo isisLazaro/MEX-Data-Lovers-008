@@ -61,7 +61,7 @@
 	max-width: 900px;
 	margin: 20px auto;
 }				
-#main-footer {
+/* #main-footer {
 	background: #88BA75;
 	color: #000000;
 	text-align: center;
@@ -79,7 +79,7 @@
 }
 #footer-text {
 	font-size: 50%;
-}
+} */
 
 nav {
 	margin: auto;
@@ -342,4 +342,19 @@ color: 	#000000;
 
 #season-3:hover {
 	color: #9082E7;
+}
+
+.card {
+	float : left;
+}
+
+.nameCharacter {
+	color: white;
+	text-align: center;
+	font-size:15px;
+}
+
+.dataCharacter {
+	color: white;
+	font-size:12px;
 }
