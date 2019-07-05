@@ -76,7 +76,32 @@ viewData : (data, idContenedor) => {
     idContenedor.appendChild(imagen[i]);
    }
   },
+ 
+  // filtrar ascendentemente 
+  sortData : (data, sortBy, sortOrder) => { 
+    console.log("hola");
+    
+    if (sortBy === "name" && sortOrder === "AZ" ) {
+     //Ordenamiento por nombre, ascendente
+      data.sort((a, b) => {return a.name.localeCompare(b.name);});
+    }
 
+    //filtrar descendentemente
+    else if (sortBy === "name" && sortOrder === "ZA" ) {
+      // Ordenamiento por nombre, descendente
+      data.sort((a, b)=> {return b.name.localeCompare(a.name);});
+    }
+    if (sortBy === "status" && sortOrder === "AZ" ) {
+      // Ordenamiento por nombre, ascendente
+      data.sort((a, b) => {return a.status.localeCompare(b.status);});
+    }
+    else if (sortBy === "status" && sortOrder === "ZA" ) {
+      // Ordenamiento por nombre, descendente
+      data.sort((a, b)=> {return b.status.localeCompare(a.status);});
+    }
+    else 
+      return 0;
+  },
 
 
   // sortData: (data, sortBy) => {
