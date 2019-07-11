@@ -1,41 +1,5 @@
 window.data = {
 
-  viewData : (data, idContenedor) => {
-    /* let imagen = [];
-    for (let i = 0; i < data.length; i++) {
-      imagen[i] = document.createElement('img');
-      imagen[i].src = data[i].image;
-      // imagen[i].width = 250;
-      idContenedor.appendChild(imagen[i]);
-    } */
-
-    let cardTemplate = "";
-    data.forEach(element => {
-      cardTemplate += `
-        <div class="card">
-            <img class = "imgCharacter" src=${element.image}>
-            <div class="characterInfo">
-                <h3 class="nameCharacter">${element.name}</h3>
-                <p class="dataCharacter">status: ${element.status}</p>
-                <p class="dataCharacter">species: ${element.species}</p>
-                <p class="dataCharacter">type: ${element.type}</p>
-                <p class="dataCharacter">gender: ${element.gender}</p>
-                <p class="dataCharacter">origin: ${element.origin.name})</p>
-                <p class="dataCharacter">location: ${element.location.name})</p>
-            </div>
-        </div>`;
-    });
-    idContenedor.innerHTML = cardTemplate;
-  },
-
-  obtainAllData : (data) => {
-    // se obtiene de RICKANDMORTY.js TODOS los DATOS de TODOS los PERSONAJES 
-    const valores = Object.values(data); // {info:{}, results:[{}]}
-    characterData = valores[1]; // characterData[#] {id,name,status,species,type,gender,origin,location,image,episode,url,created"}
-    //console.log(characterData);
-    return characterData;
-  },
-
   filterDataSeason : (data, season) => {
     // season - condition ("season1", "season2", "season3")
     let seasonNum = ""; // número de temporada del episodio
@@ -69,52 +33,38 @@ window.data = {
     return characterSeason; // regresa el índice de los personajes que salen en la temporada seleccionada    
   },
 
-  filterDataGender: (data, gender) => {
-    const genero = data.filter(personajes => personajes.gender === gender);
-    return genero;
+  /* filterDataGender: (data, gender) => {
+    return data.filter(personajes => personajes.gender === gender);  
    },
-
   filterDataStatus : (data, status) => {
-    const edo = data.filter(algo => algo.status === status);
-    return edo;
-  },
-
+    return data.filter(algo => algo.status === status);
+  },*/
   filterDataOrigin : (data, name) => {
-    const origen = data.filter(personajes => personajes.origin.name === name);
-    return origen;
+    return data.filter(personajes => personajes.origin.name === name);
+  },
+  
+  filterData : (data, key, condition) => {
+    return data.filter(element => element[key] === condition);
   },
 
-  filterData : (key, value) => {
-    // proxima iteración
-  },
-
-  sortData : (data, sortBy, sortOrder) => { 
-    if (sortBy === "name" && sortOrder === "AZ" ) {
-      // Ordenamiento por nombre, ascendente
-      data.sort((a, b) => {return a.name.localeCompare(b.name);});
+  sortData : (data, sortOrder) => { 
+    if (sortOrder == 'AZ') {
+      return data.sort((a, b) => a.name.localeCompare(b.name));
     }
-    else if (sortBy === "name" && sortOrder === "ZA" ) {
-      // Ordenamiento por nombre, descendente
-      data.sort((a, b)=> {return b.name.localeCompare(a.name);});
+    else if (sortOrder == 'ZA') {
+      return data.sort((a, b) => b.name.localeCompare(a.name));
     }
-    if (sortBy === "status" && sortOrder === "AZ" ) {
-      // Ordenamiento por nombre, ascendente
-      data.sort((a, b) => {return a.status.localeCompare(b.status);});
+    else if (sortOrder == '0') {
+      return data.sort((a, b) => a.id>(b.id));      
     }
-    else if (sortBy === "status" && sortOrder === "ZA" ) {
-      // Ordenamiento por nombre, descendente
-      data.sort((a, b)=> {return b.status.localeCompare(a.status);});
-    }
-    else 
-      return 0;
   },
 
   computeStats : (data) => {
     const totalCharactersSeason = data.length;
     const aliveCharactersSeason = (data.filter(x => x.status === 'Alive')).length;
-    const deadCharactersSeason = (data.filter(x => x.status === 'Dead')).length;
+    //const deadCharactersSeason = (data.filter(x => x.status === 'Dead')).length;
     const alive_100 = aliveCharactersSeason / totalCharactersSeason *100;
-    const dead_100 = deadCharactersSeason / totalCharactersSeason *100;
+    //const dead_100 = deadCharactersSeason / totalCharactersSeason *100;
     // console.log("Total personajes S1 = ", totalCharactersSeason);
     // console.log("personajes vivos S1 = ", aliveCharactersSeason, " personajes muertos S1 = ", deadCharactersSeason);
     // console.log("% personajes vivos S1 = ", alive_100, " % personajes muertos S1 = ", dead_100);
@@ -122,3 +72,7 @@ window.data = {
     return alive_100;
   }
 };
+
+
+
+
