@@ -123,11 +123,11 @@ Una vez que realizamos los forks correspondientes, se instalaron las dependencia
 <img src = "images/test1.JPG" width = 500>
 
 ## Checklist
-- [ ] Usa VanillaJS.
-- [ ] No hace uso de `this`.
+- [X] Usa VanillaJS.
+- [X] No hace uso de `this`.
 - [x] Pasa linter (`npm pretest`)
-- [ ] Pasa tests (`npm test`)
-- [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+- [X] Pasa tests (`npm test`)
+- [X] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
       lines y branches.
 - [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
 - [x] Incluye historias de usuario en `README.md`.
@@ -135,11 +135,11 @@ Una vez que realizamos los forks correspondientes, se instalaron las dependencia
       `README.md`.
 - [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
       en `README.md`.
-- [ ] Incluye el listado de problemas que detectaste a través de tests de
+- [X] Incluye el listado de problemas que detectaste a través de tests de
       usabilidad en el `README.md`.
 - [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-- [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-- [ ] UI: Permite filtrar data en base a una condición.
+- [X] UI: Permite ordenar data por uno o más campos (asc y desc).
+- [X] UI: Permite filtrar data en base a una condición.
 
 ## README original
 [README original](READMEoriginal.md)
