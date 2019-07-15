@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="img/observatory.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Saira&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-  
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   </head>
   <body class="background">
     <header id="season-header">
@@ -40,6 +40,15 @@
       </select>
       <label for="disp-info">Info:</label>
       <textarea id="disp-info" readonly rows = "3"></textarea>
+      <!-- <button class = "trigger"><img src="https://img.icons8.com/dusk/64/000000/chart.png" alt=""></button> -->
+      <button class = "trigger">chart</button>
+      <div class = "modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h2>Gender Representation in R&M</h2>
+          <div id="chart_div"></div>
+        </div>
+      </div>
       <div id="card-container"></div>
         <!-- <div id="imgreaload" src="img/go-back-arrow.svg" onclick="location.reload();" height="30" width="30"> </div>
         <nav id="menu"> FILTER BY
@@ -93,5 +102,6 @@
     <script src="./data/rickandmorty/rickandmorty.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
+    <script src = "charTest.js"></script>
   </body>
 </html>

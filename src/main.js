@@ -12,7 +12,6 @@ genderSelect.selectedIndex = 0;
 statusSelect.selectedIndex = 0;
 orderSelect.selectedIndex = 0;
 
-
 const viewData = (data, idContenedor) => {
   let cardTemplate = "";
   data.forEach(element => {
@@ -72,3 +71,15 @@ seasonSelect.addEventListener('change', () => displayData());
 genderSelect.addEventListener('change', () => displayData());
 statusSelect.addEventListener('change', () => displayData());
 orderSelect.addEventListener('change', () => displayData());
+
+const modal = document.querySelector(".modal");
+const trigger = document.querySelector(".trigger");
+const closeButton = document.querySelector(".close-button");
+const toogleModal = () => modal.classList.toggle("show-modal");
+trigger.addEventListener("click", toogleModal);
+closeButton.addEventListener("click", toogleModal);
+window.addEventListener("click", event => {
+  if (event.target === modal) {
+    toogleModal();
+  }
+});
