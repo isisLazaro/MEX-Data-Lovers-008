@@ -122,6 +122,10 @@ Una vez que realizamos los forks correspondientes, se instalaron las dependencia
 
 <img src = "images/test1.JPG" width = 500>
 
+Test (jest) al final del sprint 3
+
+<img src = "images/jest190715.JPG" width = 500>
+
 ## Checklist
 - [X] Usa VanillaJS.
 - [X] No hace uso de `this`.
