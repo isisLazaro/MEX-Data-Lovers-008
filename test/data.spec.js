@@ -309,6 +309,15 @@ describe('sortData', () => {
     ]);
   });
 });
+
+describe('computeStats', () => {
+  it('is a function', () =>
+    expect(typeof window.data.computeStats).toBe('function')
+  );
+  it('Debería regresar 50 ', () => {
+    expect(window.data.computeStats(5,10)).toEqual(50);
+  });
+});
 /* describe('example', () => {
   it('is a function', () => {
     expect(typeof example).toBe('function');
