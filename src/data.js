@@ -59,17 +59,8 @@ window.data = {
     }
   },
 
-  computeStats : (data) => {
-    const totalCharactersSeason = data.length;
-    const aliveCharactersSeason = (data.filter(x => x.status === 'Alive')).length;
-    //const deadCharactersSeason = (data.filter(x => x.status === 'Dead')).length;
-    const alive_100 = aliveCharactersSeason / totalCharactersSeason *100;
-    //const dead_100 = deadCharactersSeason / totalCharactersSeason *100;
-    // console.log("Total personajes S1 = ", totalCharactersSeason);
-    // console.log("personajes vivos S1 = ", aliveCharactersSeason, " personajes muertos S1 = ", deadCharactersSeason);
-    // console.log("% personajes vivos S1 = ", alive_100, " % personajes muertos S1 = ", dead_100);
-    // console.log(dead_100);
-    return alive_100;
+  computeStats : (a,b) => {
+    return (a/b)*100;
   }
 };
 
